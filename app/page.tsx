@@ -69,23 +69,23 @@ export default function Home() {
         id="hero"
         className="relative w-full overflow-hidden min-h-screen h-screen flex items-center section-bg-1"
       >
-        <div className="container mx-auto max-w-[86%] xs:max-w-[86%] sm:max-w-[86%] md:max-w-[82%] lg:max-w-[76%] px-4 sm:px-6 flex flex-col lg:flex-row items-center sm:pt-4 md:pt-0">
+        <div className="container mx-auto max-w-[86%] xs:max-w-[86%] sm:max-w-[86%] md:max-w-[82%] lg:max-w-[82%] px-4 sm:px-6 flex flex-col lg:flex-row items-center sm:pt-4 md:pt-0">
           {/* Contenu à gauche - centré sur mobile, aligné à gauche sur desktop */}
           <div className="w-full lg:w-1/2 z-10 mb-12 lg:mb-0 text-center lg:text-left">
-            <h1 className="typography-h1 mb-6 sm:mb-4 md:mb-12 mx-auto lg:mx-0">
+            <h1 className="typography-h1 mb-6 sm:mb-4 md:mb-6 mx-auto lg:mx-0">
               Résolvez vos difficultés sociales et éducatives de façon innovante
             </h1>
             <p className="typography-body text-muted-foreground mb-4 mx-auto lg:mx-0">
               Vous habitez à l&apos;Île de La Réunion ?
             </p>
-            <p className="typography-body text-muted-foreground mb-4 mx-auto lg:mx-0">
+            <p className="typography-body text-muted-foreground mb-6 mx-auto lg:mx-0">
               Vous êtes à la recherche d&apos;un travailleur social indépendant ?
             </p>
             <div className="flex justify-center lg:justify-start">
               <Button
                 size="lg"
                 variant="default"
-                className="typography-button py-4 sm:py-6 px-4 sm:px-6 rounded-btn shadow-lg gap-2"
+                className="typography-button py-8 sm:py-6 px-4 sm:px-6 rounded-btn shadow-lg gap-2"
                 onClick={() => handleSmoothScroll('domaines-intervention')}
               >
                 Découvrir nos services <ArrowDown className="ml-2" />
@@ -394,7 +394,7 @@ export default function Home() {
 
       {/* Tarification Section - adapté au contenu */}
       <section id="tarifs" className="py-16 md:py-24 section-bg-2">
-        <div className="max-w-[80%] xs:max-w-[72%] sm:max-w-[92%] md:max-w-[90%] lg:max-w-[76%] mx-auto px-4 sm:px-6">
+        <div className="max-w-[80%] xs:max-w-[72%] sm:max-w-[76%] md:max-w-[90%] lg:max-w-[76%] mx-auto px-4 sm:px-6">
           <div className="text-center mb-8 md:mb-12">
             <h2 className="typography-h2 mb-4">
               Nos tarifs
@@ -489,7 +489,7 @@ export default function Home() {
 
       {/* CTA Section - hauteur adaptative plutôt que fixe */}
       <section id="contact" className="py-16 md:py-24 flex items-center justify-center section-bg-1 cta-section">
-        <div className="max-w-[80%] xs:max-w-[72%] sm:max-w-[92%] md:max-w-[90%] lg:max-w-[76%] mx-auto px-4 sm:px-6 md:max-w-3xl lg:max-w-4xl">
+        <div className="max-w-[80%] xs:max-w-[72%] sm:max-w-[74%] md:max-w-[90%] lg:max-w-[76%] mx-auto px-4 sm:px-6 md:max-w-3xl lg:max-w-4xl">
           <div className="bg-gradient-to-r from-primary/20 to-accent/20 rounded-2xl sm:rounded-3xl p-6 sm:p-8 md:p-12 shadow-xl text-center">
             <h2 className="typography-h2 mb-4">
               Prêt à commencer ?

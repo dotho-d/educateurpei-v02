@@ -472,7 +472,7 @@ export function Slideshow({ children, autoPlay = true, interval = 24000 }: Slide
   `;
 
   return (
-    <div className="relative w-full overflow-hidden flex flex-col justify-center items-center ClientSlideshow py-8">
+    <div className="relative w-full overflow-hidden flex flex-col justify-center items-center ClientSlideshow py-2">
       {/* Injecter le CSS pour les grands écrans */}
       <style dangerouslySetInnerHTML={{ __html: desktopCSS }} />
       
@@ -564,7 +564,7 @@ export function Slideshow({ children, autoPlay = true, interval = 24000 }: Slide
       </div>
 
       {/* Contrôles de navigation */}
-      <div className="flex items-center justify-center space-x-4 mt-8">
+      <div className="flex items-center justify-center space-x-4 mt-0">
         {renderNavigationButton(
           handlePrevious, 
           'left', 
